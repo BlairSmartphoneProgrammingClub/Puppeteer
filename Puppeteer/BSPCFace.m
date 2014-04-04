@@ -35,17 +35,27 @@
 /**
  *  Function: setQuotes
  *  -------------------
- *  Sets the NSMutableArray of quotes to q. The NSDictionary where the key is the name of the
- *  quote and the value is the file path
+ *  Sets the NSMutableDictionary of quotes to q. The NSDictionary where the key is the name
+ *  of the quote and the value is the file path
  */
-- (void) setQuotes:(NSMutableArray*)q
+- (void) setQuoteDictionary:(NSMutableDictionary*)q
 {
-    quotes = q;
+    quoteDictionary = q;
+}
+
+/**
+ *  Function: addQuotes
+ *  -------------------
+ *  Adds more quotes to the NSMutableDictionary of quotes. 
+ */
+- (void) addQuotes:(NSString*)n FilePath:(NSString*)filePath
+{
+    [quoteDictionary setObject:filePath forKey:n];
 }
 
 - (void) playQuote:(NSString*)name
 {
-    
+    //Left as an exercise to the reader
 }
 
 @end
