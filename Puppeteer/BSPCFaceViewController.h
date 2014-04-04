@@ -1,5 +1,5 @@
 //
-//  BSPCViewController.h
+//  BSPCFaceViewController.h
 //  Puppeteer
 //
 //  Created by Chazan, Jonah on 4/4/14.
@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BSPCFace.h"
 
-@interface BSPCViewController : UIViewController {
-    NSMutableArray *faces;
-}
+@interface BSPCFaceViewController : UIViewController
 
 
+- (IBAction)playQuote:(id)sender;
+- (IBAction)closeView:(id)sender;
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation BSPCFace
 
-- (void) initWithName:(NSString*)name SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImage {
+- (id) initWithName:(NSString*)name SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImage {
     
 } // yo, Rose was here
 
