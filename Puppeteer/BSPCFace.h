@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface BSPCFace : NSObject {
-    UIImage *smallPic,*largePic;
     NSString *name;
     
     NSMutableArray *quotes;
 }
+
+@property() UIImage *smallPic,*largePic;
 
 - (id) initWithName:(NSString*)name SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImage;
 - (void) setQuotes:(NSMutableArray*)q;

@@ -41,11 +41,10 @@
     
     for(int i=0;i<[faces count];i++) {
         BSPCFace *face = [faces objectAtIndex:i];
-        UIImageView *view = [[UIImageView alloc] initWithImage:[faces objectAtIndex:i]];
+        UIImageView *view = [[UIImageView alloc] initWithImage:[face objectAtIndex:i]];
         
         UITapGestureRecognizer *gestRec = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped)];
-        
-        [view add]
+        [view addGestureRecognizer:gestRec];
         
     }
 }
