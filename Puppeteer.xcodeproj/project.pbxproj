@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
 		ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */; };
 		ECECC4A018EF4E230025DB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49F18EF4E230025DB21 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0B05B418EF56910019197A /* BSPCFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFace.h; sourceTree = "<group>"; };
+		EC0B05B518EF56910019197A /* BSPCFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFace.m; sourceTree = "<group>"; };
 		ECECC49818EF4E230025DB21 /* Puppeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECECC49B18EF4E230025DB21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				ECECC4AD18EF4E240025DB21 /* Main.storyboard */,
 				ECECC4B018EF4E240025DB21 /* BSPCViewController.h */,
 				ECECC4B118EF4E240025DB21 /* BSPCViewController.m */,
+				EC0B05B418EF56910019197A /* BSPCFace.h */,
+				EC0B05B518EF56910019197A /* BSPCFace.m */,
 				ECECC4B318EF4E240025DB21 /* Images.xcassets */,
 				ECECC4A218EF4E230025DB21 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0B05B618EF56910019197A /* BSPCFace.m in Sources */,
 				ECECC4AC18EF4E230025DB21 /* BSPCAppDelegate.m in Sources */,
 				ECECC4B218EF4E240025DB21 /* BSPCViewController.m in Sources */,
 				ECECC4A818EF4E230025DB21 /* main.m in Sources */,
@@ -377,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
 				INFOPLIST_FILE = "Puppeteer/Puppeteer-Info.plist";
@@ -390,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
 				INFOPLIST_FILE = "Puppeteer/Puppeteer-Info.plist";
@@ -457,6 +465,7 @@
 				ECECC4CC18EF4E240025DB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECECC4CD18EF4E240025DB21 /* Build configuration list for PBXNativeTarget "PuppeteerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				ECECC4CF18EF4E240025DB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
