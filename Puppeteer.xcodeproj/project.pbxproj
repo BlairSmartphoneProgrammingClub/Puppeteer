@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
+		ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */; };
+		ECECC4A018EF4E230025DB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49F18EF4E230025DB21 /* UIKit.framework */; };
+		ECECC4A618EF4E230025DB21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4A418EF4E230025DB21 /* InfoPlist.strings */; };
+		ECECC4A818EF4E230025DB21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4A718EF4E230025DB21 /* main.m */; };
+		ECECC4AC18EF4E230025DB21 /* BSPCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */; };
+		ECECC4AF18EF4E240025DB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4AD18EF4E240025DB21 /* Main.storyboard */; };
+		ECECC4B218EF4E240025DB21 /* BSPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4B118EF4E240025DB21 /* BSPCViewController.m */; };
+		ECECC4B418EF4E240025DB21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4B318EF4E240025DB21 /* Images.xcassets */; };
+		ECECC4BB18EF4E240025DB21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC4BA18EF4E240025DB21 /* XCTest.framework */; };
+		ECECC4BC18EF4E240025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
+		ECECC4BD18EF4E240025DB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49F18EF4E230025DB21 /* UIKit.framework */; };
+		ECECC4C518EF4E240025DB21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4C318EF4E240025DB21 /* InfoPlist.strings */; };
+		ECECC4C718EF4E240025DB21 /* PuppeteerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4C618EF4E240025DB21 /* PuppeteerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECECC4BE18EF4E240025DB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECECC49018EF4E230025DB21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECECC49718EF4E230025DB21;
+			remoteInfo = Puppeteer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECECC49818EF4E230025DB21 /* Puppeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECECC49B18EF4E230025DB21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECECC49F18EF4E230025DB21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECECC4A318EF4E230025DB21 /* Puppeteer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puppeteer-Info.plist"; sourceTree = "<group>"; };
+		ECECC4A518EF4E230025DB21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECECC4A718EF4E230025DB21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECECC4A918EF4E230025DB21 /* Puppeteer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puppeteer-Prefix.pch"; sourceTree = "<group>"; };
+		ECECC4AA18EF4E230025DB21 /* BSPCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPCAppDelegate.h; sourceTree = "<group>"; };
+		ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPCAppDelegate.m; sourceTree = "<group>"; };
+		ECECC4AE18EF4E240025DB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECECC4B018EF4E240025DB21 /* BSPCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPCViewController.h; sourceTree = "<group>"; };
+		ECECC4B118EF4E240025DB21 /* BSPCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPCViewController.m; sourceTree = "<group>"; };
+		ECECC4B318EF4E240025DB21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECECC4B918EF4E240025DB21 /* PuppeteerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuppeteerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECECC4BA18EF4E240025DB21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECECC4C218EF4E240025DB21 /* PuppeteerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuppeteerTests-Info.plist"; sourceTree = "<group>"; };
+		ECECC4C418EF4E240025DB21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECECC4C618EF4E240025DB21 /* PuppeteerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuppeteerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECECC49518EF4E230025DB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */,
+				ECECC4A018EF4E230025DB21 /* UIKit.framework in Frameworks */,
+				ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECECC4B618EF4E240025DB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECECC4BB18EF4E240025DB21 /* XCTest.framework in Frameworks */,
+				ECECC4BD18EF4E240025DB21 /* UIKit.framework in Frameworks */,
+				ECECC4BC18EF4E240025DB21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECECC48F18EF4E230025DB21 = {
+			isa = PBXGroup;
+			children = (
+				ECECC4A118EF4E230025DB21 /* Puppeteer */,
+				ECECC4C018EF4E240025DB21 /* PuppeteerTests */,
+				ECECC49A18EF4E230025DB21 /* Frameworks */,
+				ECECC49918EF4E230025DB21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECECC49918EF4E230025DB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECECC49818EF4E230025DB21 /* Puppeteer.app */,
+				ECECC4B918EF4E240025DB21 /* PuppeteerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECECC49A18EF4E230025DB21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECECC49B18EF4E230025DB21 /* Foundation.framework */,
+				ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */,
+				ECECC49F18EF4E230025DB21 /* UIKit.framework */,
+				ECECC4BA18EF4E240025DB21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECECC4A118EF4E230025DB21 /* Puppeteer */ = {
+			isa = PBXGroup;
+			children = (
+				ECECC4AA18EF4E230025DB21 /* BSPCAppDelegate.h */,
+				ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */,
+				ECECC4AD18EF4E240025DB21 /* Main.storyboard */,
+				ECECC4B018EF4E240025DB21 /* BSPCViewController.h */,
+				ECECC4B118EF4E240025DB21 /* BSPCViewController.m */,
+				ECECC4B318EF4E240025DB21 /* Images.xcassets */,
+				ECECC4A218EF4E230025DB21 /* Supporting Files */,
+			);
+			path = Puppeteer;
+			sourceTree = "<group>";
+		};
+		ECECC4A218EF4E230025DB21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECECC4A318EF4E230025DB21 /* Puppeteer-Info.plist */,
+				ECECC4A418EF4E230025DB21 /* InfoPlist.strings */,
+				ECECC4A718EF4E230025DB21 /* main.m */,
+				ECECC4A918EF4E230025DB21 /* Puppeteer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECECC4C018EF4E240025DB21 /* PuppeteerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECECC4C618EF4E240025DB21 /* PuppeteerTests.m */,
+				ECECC4C118EF4E240025DB21 /* Supporting Files */,
+			);
+			path = PuppeteerTests;
+			sourceTree = "<group>";
+		};
+		ECECC4C118EF4E240025DB21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECECC4C218EF4E240025DB21 /* PuppeteerTests-Info.plist */,
+				ECECC4C318EF4E240025DB21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECECC49718EF4E230025DB21 /* Puppeteer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECECC4CA18EF4E240025DB21 /* Build configuration list for PBXNativeTarget "Puppeteer" */;
+			buildPhases = (
+				ECECC49418EF4E230025DB21 /* Sources */,
+				ECECC49518EF4E230025DB21 /* Frameworks */,
+				ECECC49618EF4E230025DB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puppeteer;
+			productName = Puppeteer;
+			productReference = ECECC49818EF4E230025DB21 /* Puppeteer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECECC4B818EF4E240025DB21 /* PuppeteerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECECC4CD18EF4E240025DB21 /* Build configuration list for PBXNativeTarget "PuppeteerTests" */;
+			buildPhases = (
+				ECECC4B518EF4E240025DB21 /* Sources */,
+				ECECC4B618EF4E240025DB21 /* Frameworks */,
+				ECECC4B718EF4E240025DB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECECC4BF18EF4E240025DB21 /* PBXTargetDependency */,
+			);
+			name = PuppeteerTests;
+			productName = PuppeteerTests;
+			productReference = ECECC4B918EF4E240025DB21 /* PuppeteerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECECC49018EF4E230025DB21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSPC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BlairSmartphoneProgrammingClub;
+				TargetAttributes = {
+					ECECC4B818EF4E240025DB21 = {
+						TestTargetID = ECECC49718EF4E230025DB21;
+					};
+				};
+			};
+			buildConfigurationList = ECECC49318EF4E230025DB21 /* Build configuration list for PBXProject "Puppeteer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECECC48F18EF4E230025DB21;
+			productRefGroup = ECECC49918EF4E230025DB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECECC49718EF4E230025DB21 /* Puppeteer */,
+				ECECC4B818EF4E240025DB21 /* PuppeteerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECECC49618EF4E230025DB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECECC4B418EF4E240025DB21 /* Images.xcassets in Resources */,
+				ECECC4A618EF4E230025DB21 /* InfoPlist.strings in Resources */,
+				ECECC4AF18EF4E240025DB21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECECC4B718EF4E240025DB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECECC4C518EF4E240025DB21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECECC49418EF4E230025DB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECECC4AC18EF4E230025DB21 /* BSPCAppDelegate.m in Sources */,
+				ECECC4B218EF4E240025DB21 /* BSPCViewController.m in Sources */,
+				ECECC4A818EF4E230025DB21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECECC4B518EF4E240025DB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECECC4C718EF4E240025DB21 /* PuppeteerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECECC4BF18EF4E240025DB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECECC49718EF4E230025DB21 /* Puppeteer */;
+			targetProxy = ECECC4BE18EF4E240025DB21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECECC4A418EF4E230025DB21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECECC4A518EF4E230025DB21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECECC4AD18EF4E240025DB21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECECC4AE18EF4E240025DB21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECECC4C318EF4E240025DB21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECECC4C418EF4E240025DB21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECECC4C818EF4E240025DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECECC4C918EF4E240025DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECECC4CB18EF4E240025DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				INFOPLIST_FILE = "Puppeteer/Puppeteer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECECC4CC18EF4E240025DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				INFOPLIST_FILE = "Puppeteer/Puppeteer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECECC4CE18EF4E240025DB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puppeteer.app/Puppeteer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PuppeteerTests/PuppeteerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECECC4CF18EF4E240025DB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puppeteer.app/Puppeteer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puppeteer/Puppeteer-Prefix.pch";
+				INFOPLIST_FILE = "PuppeteerTests/PuppeteerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECECC49318EF4E230025DB21 /* Build configuration list for PBXProject "Puppeteer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECECC4C818EF4E240025DB21 /* Debug */,
+				ECECC4C918EF4E240025DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECECC4CA18EF4E240025DB21 /* Build configuration list for PBXNativeTarget "Puppeteer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECECC4CB18EF4E240025DB21 /* Debug */,
+				ECECC4CC18EF4E240025DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECECC4CD18EF4E240025DB21 /* Build configuration list for PBXNativeTarget "PuppeteerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECECC4CE18EF4E240025DB21 /* Debug */,
+				ECECC4CF18EF4E240025DB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECECC49018EF4E230025DB21 /* Project object */;
+}
