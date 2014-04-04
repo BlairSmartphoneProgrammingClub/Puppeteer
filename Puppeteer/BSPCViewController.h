@@ -13,6 +13,6 @@
     NSMutableArray *faces;
 }
 
-
+- (void) imageTapped:(id)sender;
 
 @end

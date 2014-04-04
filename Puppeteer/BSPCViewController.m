@@ -7,6 +7,10 @@
 //
 
 #import "BSPCViewController.h"
+#import "BSPCFaceViewController.h"
+
+#define GAP_SIZE 20         //Height of the top bar
+#define IMAGE_SIZE 320-3*GAP_SIZE      //the width of the screen minus GAP_SIZE on the left, right, and middle
 
 @interface BSPCViewController ()
 
@@ -41,11 +45,14 @@
     
     for(int i=0;i<[faces count];i++) {
         BSPCFace *face = [faces objectAtIndex:i];
-        UIImageView *view = [[UIImageView alloc] initWithImage:[face objectAtIndex:i]];
+        UIImageView *view = [[UIImageView alloc] initWithImage:face.smallPic];
         
-        UITapGestureRecognizer *gestRec = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped)];
+        UITapGestureRecognizer *gestRec = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)];
         [view addGestureRecognizer:gestRec];
         
+        view.frame = CGRectMake(20+(150 * (i%2)), 20+150*i, IMAGE_SIZE, IMAGE_SIZE);
+        
+        view.tag = i;
     }
 }
 
@@ -55,6 +62,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (void)imageTapped:(id)sender {
+    UIImageView *view = (UIImageView *)sender;
+    BSPCFace *face = [faces objectAtIndex:view.tag];
+    
+    BSPCViewController* modalController = [[BSPCViewController alloc] initWithNibName:<#(NSString *)#> bundle:nil];
+}
 
 @end

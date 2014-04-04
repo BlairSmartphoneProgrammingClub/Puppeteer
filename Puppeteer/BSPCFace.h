@@ -12,7 +12,7 @@
     NSString *name;
     
     NSMutableArray *quotes;
-} // yo, Rose was here again, this time for real
+}
 
 @property() UIImage *smallPic,*largePic;
 

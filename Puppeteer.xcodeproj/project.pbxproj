@@ -19,6 +19,7 @@
 		7146571B18EF6562003B541C /* Street.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571118EF6562003B541C /* Street.JPG */; };
 		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */; };
+		EC0B05BB18EF608C0019197A /* FaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0B05BA18EF608C0019197A /* FaceView.xib */; };
 		ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
 		ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */; };
 		ECECC4A018EF4E230025DB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49F18EF4E230025DB21 /* UIKit.framework */; };
@@ -60,6 +61,7 @@
 		EC0B05B518EF56910019197A /* BSPCFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFace.m; sourceTree = "<group>"; };
 		EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFaceViewController.h; sourceTree = "<group>"; };
 		EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFaceViewController.m; sourceTree = "<group>"; };
+		EC0B05BA18EF608C0019197A /* FaceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceView.xib; sourceTree = "<group>"; };
 		ECECC49818EF4E230025DB21 /* Puppeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECECC49B18EF4E230025DB21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -161,6 +163,7 @@
 				ECECC4AD18EF4E240025DB21 /* Main.storyboard */,
 				ECECC4B018EF4E240025DB21 /* BSPCViewController.h */,
 				ECECC4B118EF4E240025DB21 /* BSPCViewController.m */,
+				EC0B05BA18EF608C0019197A /* FaceView.xib */,
 				EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */,
 				EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */,
 				EC0B05B418EF56910019197A /* BSPCFace.h */,

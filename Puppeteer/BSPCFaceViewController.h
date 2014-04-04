@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BSPCFaceViewController : UIViewController
+@interface BSPCFaceViewController : UIViewController {
+    
+}
 
+@property() IBOutlet UIView *coverUp;
+@property() IBOutlet UIImageView *face,*chin;
 
 - (IBAction)playQuote:(id)sender;
 - (IBAction)closeView:(id)sender;
