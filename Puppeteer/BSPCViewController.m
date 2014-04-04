@@ -21,7 +21,33 @@
     
     faces = [[NSMutableArray alloc] initWithCapacity:10];
     
-    [faces addObject:[[BSPCFace alloc]]]
+    [faces addObject:[[BSPCFace alloc] initWithName:@"Pham" SmallImage:[UIImage imageNamed:@"phamSmall.png"] LargeImage:[UIImage imageNamed:@"phamLarge.png"]]];
+    [faces addObject:[[BSPCFace alloc] initWithName:@"Fowler" SmallImage:[UIImage imageNamed:@"fowlerSmall.png"] LargeImage:[UIImage imageNamed:@"fowlerLarge.png"]]];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //adding objects to faces will finally finish around here I guess
+    
+    for(int i=0;i<[faces count];i++) {
+        BSPCFace *face = [faces objectAtIndex:i];
+        UIImageView *view = [[UIImageView alloc] initWithImage:[faces objectAtIndex:i]];
+        
+        UITapGestureRecognizer *gestRec = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped)];
+        
+        [view add]
+        
+    }
 }
 
 - (void)didReceiveMemoryWarning
