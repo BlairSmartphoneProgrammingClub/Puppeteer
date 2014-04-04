@@ -15,4 +15,8 @@
     NSMutableArray *quotes;
 }
 
+- (id) initWithName:(NSString*)name SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImage;
+- (void) setQuotes:(NSMutableArray*)q;
+- (void) playQuote:(NSString*)name;
+
 @end
