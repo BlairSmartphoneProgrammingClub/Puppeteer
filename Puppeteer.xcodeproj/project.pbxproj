@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7146571218EF6562003B541C /* Duval.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570818EF6562003B541C /* Duval.JPG */; };
+		7146571318EF6562003B541C /* Dvorsky.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570918EF6562003B541C /* Dvorsky.JPG */; };
+		7146571418EF6562003B541C /* Fowler.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570A18EF6562003B541C /* Fowler.JPG */; };
+		7146571518EF6562003B541C /* Giles.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570B18EF6562003B541C /* Giles.JPG */; };
+		7146571618EF6562003B541C /* Ostrander.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570C18EF6562003B541C /* Ostrander.JPG */; };
+		7146571718EF6562003B541C /* Pham.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570D18EF6562003B541C /* Pham.JPG */; };
+		7146571818EF6562003B541C /* Piper.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570E18EF6562003B541C /* Piper.JPG */; };
+		7146571918EF6562003B541C /* Schafer.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570F18EF6562003B541C /* Schafer.JPG */; };
+		7146571A18EF6562003B541C /* Stein.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571018EF6562003B541C /* Stein.JPG */; };
+		7146571B18EF6562003B541C /* Street.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571118EF6562003B541C /* Street.JPG */; };
 		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */; };
 		EC0B05BB18EF608C0019197A /* FaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0B05BA18EF608C0019197A /* FaceView.xib */; };
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7146570818EF6562003B541C /* Duval.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Duval.JPG; path = Puppeteer/Duval.JPG; sourceTree = "<group>"; };
+		7146570918EF6562003B541C /* Dvorsky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dvorsky.JPG; path = Puppeteer/Dvorsky.JPG; sourceTree = "<group>"; };
+		7146570A18EF6562003B541C /* Fowler.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fowler.JPG; path = Puppeteer/Fowler.JPG; sourceTree = "<group>"; };
+		7146570B18EF6562003B541C /* Giles.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Giles.JPG; path = Puppeteer/Giles.JPG; sourceTree = "<group>"; };
+		7146570C18EF6562003B541C /* Ostrander.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ostrander.JPG; path = Puppeteer/Ostrander.JPG; sourceTree = "<group>"; };
+		7146570D18EF6562003B541C /* Pham.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pham.JPG; path = Puppeteer/Pham.JPG; sourceTree = "<group>"; };
+		7146570E18EF6562003B541C /* Piper.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Piper.JPG; path = Puppeteer/Piper.JPG; sourceTree = "<group>"; };
+		7146570F18EF6562003B541C /* Schafer.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Schafer.JPG; path = Puppeteer/Schafer.JPG; sourceTree = "<group>"; };
+		7146571018EF6562003B541C /* Stein.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Stein.JPG; path = Puppeteer/Stein.JPG; sourceTree = "<group>"; };
+		7146571118EF6562003B541C /* Street.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Street.JPG; path = Puppeteer/Street.JPG; sourceTree = "<group>"; };
 		EC0B05B418EF56910019197A /* BSPCFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFace.h; sourceTree = "<group>"; };
 		EC0B05B518EF56910019197A /* BSPCFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFace.m; sourceTree = "<group>"; };
 		EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFaceViewController.h; sourceTree = "<group>"; };
@@ -87,9 +107,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7146571C18EF6579003B541C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7146570818EF6562003B541C /* Duval.JPG */,
+				7146570918EF6562003B541C /* Dvorsky.JPG */,
+				7146570A18EF6562003B541C /* Fowler.JPG */,
+				7146570B18EF6562003B541C /* Giles.JPG */,
+				7146570C18EF6562003B541C /* Ostrander.JPG */,
+				7146570D18EF6562003B541C /* Pham.JPG */,
+				7146570E18EF6562003B541C /* Piper.JPG */,
+				7146570F18EF6562003B541C /* Schafer.JPG */,
+				7146571018EF6562003B541C /* Stein.JPG */,
+				7146571118EF6562003B541C /* Street.JPG */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		ECECC48F18EF4E230025DB21 = {
 			isa = PBXGroup;
 			children = (
+				7146571C18EF6579003B541C /* Images */,
 				ECECC4A118EF4E230025DB21 /* Puppeteer */,
 				ECECC4C018EF4E240025DB21 /* PuppeteerTests */,
 				ECECC49A18EF4E230025DB21 /* Frameworks */,
@@ -242,10 +280,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7146571518EF6562003B541C /* Giles.JPG in Resources */,
+				7146571718EF6562003B541C /* Pham.JPG in Resources */,
+				7146571418EF6562003B541C /* Fowler.JPG in Resources */,
+				7146571218EF6562003B541C /* Duval.JPG in Resources */,
 				ECECC4B418EF4E240025DB21 /* Images.xcassets in Resources */,
+				7146571318EF6562003B541C /* Dvorsky.JPG in Resources */,
+				7146571818EF6562003B541C /* Piper.JPG in Resources */,
 				ECECC4A618EF4E230025DB21 /* InfoPlist.strings in Resources */,
+				7146571B18EF6562003B541C /* Street.JPG in Resources */,
+				7146571618EF6562003B541C /* Ostrander.JPG in Resources */,
+				7146571918EF6562003B541C /* Schafer.JPG in Resources */,
 				ECECC4AF18EF4E240025DB21 /* Main.storyboard in Resources */,
-				EC0B05BB18EF608C0019197A /* FaceView.xib in Resources */,
+				7146571A18EF6562003B541C /* Stein.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
