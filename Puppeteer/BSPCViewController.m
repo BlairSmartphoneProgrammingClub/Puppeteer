@@ -25,11 +25,7 @@
     
     faces = [[NSMutableArray alloc] initWithCapacity:10];
     
-    [faces addObject:[[BSPCFace alloc] initWithName:@"Pham" SmallImage:[UIImage imageNamed:@"phamSmall.png"] LargeImage:[UIImage imageNamed:@"phamLarge.png"]]];
-    [faces addObject:[[BSPCFace alloc] initWithName:@"Fowler" SmallImage:[UIImage imageNamed:@"fowlerSmall.png"] LargeImage:[UIImage imageNamed:@"fowlerLarge.png"]]];
-    
-    
-    
+    NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Faces" ofType:@"plist"]]];
     
     
     
