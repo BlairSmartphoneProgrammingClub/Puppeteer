@@ -7,6 +7,7 @@
 //
 
 #import "BSPCFaceViewController.h"
+#import "BSPCFace.h"
 
 @interface BSPCFaceViewController ()
 
@@ -45,5 +46,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void)moveMouth:(BSPCFace *)face
+{
+    UIImage *pic = face.largePic;
+    
+}
 
 @end
