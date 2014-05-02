@@ -10,7 +10,7 @@
 
 @interface BSPCFace : NSObject {
     NSString *name;
-    
+    CGRect *rectangle;
     NSMutableDictionary *quoteDictionary;
 }
 

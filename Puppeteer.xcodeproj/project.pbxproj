@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBFBB1119144B370063129C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBFBB1019144B370063129C /* Main.storyboard */; };
 		7146571218EF6562003B541C /* Duval.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570818EF6562003B541C /* Duval.JPG */; };
 		7146571318EF6562003B541C /* Dvorsky.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570918EF6562003B541C /* Dvorsky.JPG */; };
 		7146571418EF6562003B541C /* Fowler.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570A18EF6562003B541C /* Fowler.JPG */; };
@@ -25,7 +26,6 @@
 		ECECC4A618EF4E230025DB21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4A418EF4E230025DB21 /* InfoPlist.strings */; };
 		ECECC4A818EF4E230025DB21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4A718EF4E230025DB21 /* main.m */; };
 		ECECC4AC18EF4E230025DB21 /* BSPCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */; };
-		ECECC4AF18EF4E240025DB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4AD18EF4E240025DB21 /* Main.storyboard */; };
 		ECECC4B218EF4E240025DB21 /* BSPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4B118EF4E240025DB21 /* BSPCViewController.m */; };
 		ECECC4B418EF4E240025DB21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4B318EF4E240025DB21 /* Images.xcassets */; };
 		ECECC4BB18EF4E240025DB21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC4BA18EF4E240025DB21 /* XCTest.framework */; };
@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DBFBB1019144B370063129C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7146570818EF6562003B541C /* Duval.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Duval.JPG; path = Puppeteer/Duval.JPG; sourceTree = "<group>"; };
 		7146570918EF6562003B541C /* Dvorsky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dvorsky.JPG; path = Puppeteer/Dvorsky.JPG; sourceTree = "<group>"; };
 		7146570A18EF6562003B541C /* Fowler.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fowler.JPG; path = Puppeteer/Fowler.JPG; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		ECECC4A918EF4E230025DB21 /* Puppeteer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puppeteer-Prefix.pch"; sourceTree = "<group>"; };
 		ECECC4AA18EF4E230025DB21 /* BSPCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPCAppDelegate.h; sourceTree = "<group>"; };
 		ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPCAppDelegate.m; sourceTree = "<group>"; };
-		ECECC4AE18EF4E240025DB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECECC4B018EF4E240025DB21 /* BSPCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPCViewController.h; sourceTree = "<group>"; };
 		ECECC4B118EF4E240025DB21 /* BSPCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPCViewController.m; sourceTree = "<group>"; };
 		ECECC4B318EF4E240025DB21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -186,9 +186,9 @@
 		ECECC4A118EF4E230025DB21 /* Puppeteer */ = {
 			isa = PBXGroup;
 			children = (
+				5DBFBB1019144B370063129C /* Main.storyboard */,
 				ECECC4AA18EF4E230025DB21 /* BSPCAppDelegate.h */,
 				ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */,
-				ECECC4AD18EF4E240025DB21 /* Main.storyboard */,
 				ECECC4B018EF4E240025DB21 /* BSPCViewController.h */,
 				ECECC4B118EF4E240025DB21 /* BSPCViewController.m */,
 				EC0B05BA18EF608C0019197A /* FaceView.xib */,
@@ -315,11 +315,11 @@
 				ECECC4B418EF4E240025DB21 /* Images.xcassets in Resources */,
 				7146571318EF6562003B541C /* Dvorsky.JPG in Resources */,
 				7146571818EF6562003B541C /* Piper.JPG in Resources */,
+				5DBFBB1119144B370063129C /* Main.storyboard in Resources */,
 				ECECC4A618EF4E230025DB21 /* InfoPlist.strings in Resources */,
 				7146571B18EF6562003B541C /* Street.JPG in Resources */,
 				7146571618EF6562003B541C /* Ostrander.JPG in Resources */,
 				7146571918EF6562003B541C /* Schafer.JPG in Resources */,
-				ECECC4AF18EF4E240025DB21 /* Main.storyboard in Resources */,
 				7146571A18EF6562003B541C /* Stein.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,14 +372,6 @@
 				ECECC4A518EF4E230025DB21 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		ECECC4AD18EF4E240025DB21 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECECC4AE18EF4E240025DB21 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		ECECC4C318EF4E240025DB21 /* InfoPlist.strings */ = {
