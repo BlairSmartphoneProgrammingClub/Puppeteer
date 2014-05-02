@@ -11,13 +11,14 @@
 @interface BSPCFace : NSObject {
     NSString *name;
     
-    NSMutableArray *quotes;
+    NSMutableDictionary *quoteDictionary;
 }
 
 @property() UIImage *smallPic,*largePic;
 
 - (id) initWithName:(NSString*)name SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImage;
-- (void) setQuotes:(NSMutableArray*)q;
+- (void) setQuoteDictionary:(NSMutableDictionary*)q;
+- (void) addQuotes:(NSString*)name FilePath:(NSString*)filePath;
 - (void) playQuote:(NSString*)name;
 
 @end
