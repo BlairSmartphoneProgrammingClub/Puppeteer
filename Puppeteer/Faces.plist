@@ -12,7 +12,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Duval</string>
+		<string>Duval.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Duval.m4a</string>
@@ -28,7 +28,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Dvorsky</string>
+		<string>Dvorsky.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Dvorsky.m4a</string>
@@ -44,7 +44,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Fowler</string>
+		<string>Fowler.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Fowler.m4a</string>
@@ -60,7 +60,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Giles</string>
+		<string>Giles.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Giles.m4a</string>
@@ -76,7 +76,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Ostrander</string>
+		<string>Ostrander.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Ostrander.m4a</string>
@@ -92,7 +92,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Pham</string>
+		<string>Pham.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Pham.m4a</string>
@@ -108,7 +108,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Piper</string>
+		<string>Piper.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Piper.m4a</string>
@@ -124,7 +124,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Rose</string>
+		<string>Rose.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Rose.m4a</string>
@@ -140,7 +140,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Schafer</string>
+		<string>Schafer.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Schafer.m4a</string>
@@ -156,7 +156,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Stein</string>
+		<string>Stein.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Stein.m4a</string>
@@ -172,7 +172,7 @@
 			<integer>60</integer>
 		</array>
 		<key>Image</key>
-		<string>Street</string>
+		<string>Street.JPG</string>
 		<key>Sounds</key>
 		<array>
 			<string>Street.m4a</string>

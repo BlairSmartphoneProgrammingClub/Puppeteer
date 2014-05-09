@@ -24,9 +24,12 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Faces" ofType:@"plist"]];
     
     for(NSString *key in dict) {
-        UIImage *img = [dict objectForKey:@"Image"];
-        NSMutableArray *quotes = [dict objectForKey:@"Sounds"];
-        NSMutableArray *rectData = [dict objectForKey:@"Rect"];
+        NSDictionary *subDict = [dict objectForKey:key];
+        NSLog(@"Dict: %@",subDict);
+        
+        UIImage *img = [UIImage imageNamed:[subDict objectForKey:@"Image"]];
+        NSMutableArray *quotes = [subDict objectForKey:@"Sounds"];
+        NSMutableArray *rectData = [subDict objectForKey:@"Rect"];
         int x = [[rectData objectAtIndex:0] intValue];
         int y = [[rectData objectAtIndex:1] intValue];
         int width = [[rectData objectAtIndex:2] intValue];
@@ -36,7 +39,9 @@
         [faces addObject:face];
     }
     
-    ((BSPCViewController*)self.window.rootViewController).faces = faces;
+    BSPCViewController *root = (BSPCViewController*)self.window.rootViewController;
+    root.faces = faces;
+    [root.tableView reloadData];
     
     // Override point for customization after application launch.
     return YES;
