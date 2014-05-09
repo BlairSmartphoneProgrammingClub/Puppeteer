@@ -18,6 +18,7 @@
 		7146571918EF6562003B541C /* Schafer.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570F18EF6562003B541C /* Schafer.JPG */; };
 		7146571A18EF6562003B541C /* Stein.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571018EF6562003B541C /* Stein.JPG */; };
 		7146571B18EF6562003B541C /* Street.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571118EF6562003B541C /* Street.JPG */; };
+		7157A1DB191D851500FF2391 /* Rose.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7157A1DA191D851500FF2391 /* Rose.JPG */; };
 		B164A302191D668300EC988F /* BSPCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B164A301191D668300EC988F /* BSPCTableViewCell.m */; };
 		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */; };
@@ -79,6 +80,9 @@
 		7146572518EF6B84003B541C /* Schafer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Schafer.m4a; sourceTree = "<group>"; };
 		7146572618EF6B84003B541C /* Stein.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stein.m4a; sourceTree = "<group>"; };
 		7146572718EF6B84003B541C /* Street.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Street.m4a; sourceTree = "<group>"; };
+		7157A1D8191D84FA00FF2391 /* Rose1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose1.m4a; sourceTree = "<group>"; };
+		7157A1D9191D850600FF2391 /* Rose2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose2.m4a; sourceTree = "<group>"; };
+		7157A1DA191D851500FF2391 /* Rose.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rose.JPG; sourceTree = "<group>"; };
 		B164A300191D668300EC988F /* BSPCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCTableViewCell.h; sourceTree = "<group>"; };
 		B164A301191D668300EC988F /* BSPCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCTableViewCell.m; sourceTree = "<group>"; };
 		EC0B05B418EF56910019197A /* BSPCFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFace.h; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 		7146571C18EF6579003B541C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7157A1DA191D851500FF2391 /* Rose.JPG */,
 				7146570818EF6562003B541C /* Duval.JPG */,
 				7146570918EF6562003B541C /* Dvorsky.JPG */,
 				7146570A18EF6562003B541C /* Fowler.JPG */,
@@ -151,6 +156,8 @@
 		7146572818EF6BDC003B541C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				7157A1D9191D850600FF2391 /* Rose2.m4a */,
+				7157A1D8191D84FA00FF2391 /* Rose1.m4a */,
 				7146571D18EF6B83003B541C /* Duval.m4a */,
 				7146571E18EF6B83003B541C /* Dvorsky.m4a */,
 				7146571F18EF6B83003B541C /* Fowler.m4a */,
@@ -328,6 +335,7 @@
 			files = (
 				ECFED5A0191448DF00D6FF02 /* Duval.m4a in Resources */,
 				ECFED5A1191448DF00D6FF02 /* Dvorsky.m4a in Resources */,
+				7157A1DB191D851500FF2391 /* Rose.JPG in Resources */,
 				ECFED5A2191448DF00D6FF02 /* Fowler.m4a in Resources */,
 				ECFED5A3191448DF00D6FF02 /* Giles.m4a in Resources */,
 				ECFED5A4191448DF00D6FF02 /* Ostrander.m4a in Resources */,
