@@ -16,7 +16,7 @@
  *  This is the first and last time I will show you guys this. Do comments pls, it makes
  *  everyone's life easier. Oh year, this is a constructor.
  */
-- (id) initWithName:(NSString*)name Image:(UIImage*)img Sounds:(NSArray*)sounds Rect:(CGRect)rect
+- (id) initWithName:(NSString*)name Image:(UIImage*)img Sounds:(NSMutableArray*)sounds Rect:(CGRect)rect
 {
     self = [super init];
     if (self)
