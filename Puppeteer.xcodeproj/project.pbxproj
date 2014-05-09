@@ -18,6 +18,7 @@
 		7146571918EF6562003B541C /* Schafer.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570F18EF6562003B541C /* Schafer.JPG */; };
 		7146571A18EF6562003B541C /* Stein.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571018EF6562003B541C /* Stein.JPG */; };
 		7146571B18EF6562003B541C /* Street.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571118EF6562003B541C /* Street.JPG */; };
+		B164A302191D668300EC988F /* BSPCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B164A301191D668300EC988F /* BSPCTableViewCell.m */; };
 		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */; };
 		ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
@@ -78,6 +79,8 @@
 		7146572518EF6B84003B541C /* Schafer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Schafer.m4a; sourceTree = "<group>"; };
 		7146572618EF6B84003B541C /* Stein.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stein.m4a; sourceTree = "<group>"; };
 		7146572718EF6B84003B541C /* Street.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Street.m4a; sourceTree = "<group>"; };
+		B164A300191D668300EC988F /* BSPCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCTableViewCell.h; sourceTree = "<group>"; };
+		B164A301191D668300EC988F /* BSPCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCTableViewCell.m; sourceTree = "<group>"; };
 		EC0B05B418EF56910019197A /* BSPCFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFace.h; sourceTree = "<group>"; };
 		EC0B05B518EF56910019197A /* BSPCFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFace.m; sourceTree = "<group>"; };
 		EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFaceViewController.h; sourceTree = "<group>"; };
@@ -211,6 +214,8 @@
 				EC0B05B518EF56910019197A /* BSPCFace.m */,
 				ECECC4B318EF4E240025DB21 /* Images.xcassets */,
 				ECECC4A218EF4E230025DB21 /* Supporting Files */,
+				B164A300191D668300EC988F /* BSPCTableViewCell.h */,
+				B164A301191D668300EC988F /* BSPCTableViewCell.m */,
 			);
 			path = Puppeteer;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC0B05B618EF56910019197A /* BSPCFace.m in Sources */,
+				B164A302191D668300EC988F /* BSPCTableViewCell.m in Sources */,
 				ECECC4AC18EF4E230025DB21 /* BSPCAppDelegate.m in Sources */,
 				ECECC4B218EF4E240025DB21 /* BSPCViewController.m in Sources */,
 				EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */,
