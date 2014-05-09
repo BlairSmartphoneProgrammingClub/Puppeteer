@@ -11,5 +11,6 @@
 @interface BSPCTableViewCell : UITableViewCell
 
 @property() IBOutlet UIImageView *face1, *face2;
+@property() IBOutlet UIViewController *controller;
 
 @end

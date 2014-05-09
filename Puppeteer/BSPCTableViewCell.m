@@ -7,6 +7,7 @@
 //
 
 #import "BSPCTableViewCell.h"
+#import "BSPCFaceViewController.h"
 
 @implementation BSPCTableViewCell
 
@@ -14,14 +15,17 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        // Initialization code
     }
     return self;
 }
 
 - (void)awakeFromNib
 {
-    // Initialization code
+    UITapGestureRecognizer *gesture1=[[UITapGestureRecognizer alloc] init];
+    UITapGestureRecognizer *gesture2=[[UITapGestureRecognizer alloc] init];
+    [self.face1 addGestureRecognizer:gesture1];
+    [self.face2 addGestureRecognizer:gesture2];
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
@@ -30,5 +34,13 @@
 
     // Configure the view for the selected state
 }
+
+- (void)face1Tapped{
+    BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] init];
+    
+    [self.controller presentViewController:<#(UIViewController *)#> animated:YES completion:nil];
+}
+
+- (void)
 
 @end

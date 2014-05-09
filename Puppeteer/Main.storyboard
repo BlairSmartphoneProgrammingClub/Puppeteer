@@ -24,6 +24,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FaceCell" rowHeight="153" id="7NS-Tk-c4a" customClass="BSPCTableViewCell">
                                                 <rect key="frame" x="0.0" y="22" width="320" height="153"/>
@@ -36,20 +37,15 @@
                                                             <rect key="frame" x="20" y="19" width="124" height="114"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
-                                                            <connections>
-                                                                <outletCollection property="gestureRecognizers" destination="frK-tb-bFc" appends="YES" id="8A0-bQ-AUC"/>
-                                                            </connections>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
                                                             <rect key="frame" x="176" y="18" width="124" height="114"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
-                                                            <connections>
-                                                                <outletCollection property="gestureRecognizers" destination="C27-pB-tbN" appends="YES" id="FOB-gu-iLN"/>
-                                                            </connections>
                                                         </imageView>
                                                     </subviews>
                                                 </tableViewCellContentView>
+                                                <gestureRecognizers/>
                                                 <connections>
                                                     <outlet property="face1" destination="FIS-aM-70c" id="MrW-fT-oEh"/>
                                                     <outlet property="face2" destination="hEm-6q-Nwt" id="uen-Ic-Pry"/>
@@ -65,56 +61,8 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PjW-58-0y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="frK-tb-bFc">
-                    <connections>
-                        <segue destination="yvy-3V-0Rs" kind="modal" id="dlM-5c-CJg"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="C27-pB-tbN">
-                    <connections>
-                        <segue destination="yvy-3V-0Rs" kind="modal" id="umf-eg-wmn"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-15" y="-1"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="oAG-w1-KMA">
-            <objects>
-                <viewController id="yvy-3V-0Rs" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sGh-bT-nwm"/>
-                        <viewControllerLayoutGuide type="bottom" id="jgT-LW-Bqo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cDN-sP-s4C">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJU-7Z-yeE">
-                                <rect key="frame" x="29" y="5" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Main Menu">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K6J-45-bDn">
-                                <rect key="frame" x="0.0" y="43" width="320" height="525"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Pwj-Hi-uPY" appends="YES" id="Aso-E3-RXu"/>
-                                    <outletCollection property="gestureRecognizers" destination="Pwj-Hi-uPY" appends="YES" id="ucr-av-b79"/>
-                                </connections>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="46t-No-jWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="Pwj-Hi-uPY"/>
-            </objects>
-            <point key="canvasLocation" x="375" y="-1"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -122,7 +70,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="umf-eg-wmn"/>
-    </inferredMetricsTieBreakers>
 </document>
