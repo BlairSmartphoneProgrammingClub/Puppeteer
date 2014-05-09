@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BSPCFace.h"
 
 @interface BSPCFaceViewController : UIViewController {
     
 }
 
+@property(nonatomic) BSPCFace *face;
 @property() IBOutlet UIView *coverUp;
-@property() IBOutlet UIImageView *face,*chin;
+@property() IBOutlet UIImageView *faceView,*chinView;
 
 - (IBAction)playQuote:(id)sender;
 - (IBAction)closeView:(id)sender;

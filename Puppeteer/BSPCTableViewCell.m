@@ -36,9 +36,9 @@
 }
 
 - (void)face1Tapped{
-    BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] init];
+    BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] initWithNibName:@"FaceView" bundle:nil];
     
-    [self.controller presentViewController:<#(UIViewController *)#> animated:YES completion:nil];
+    [self.controller presentViewController:newViewController animated:YES completion:nil];
 }
 
 - (void)

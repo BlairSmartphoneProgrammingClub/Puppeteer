@@ -36,6 +36,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)setFace:(BSPCFace *)face {
+    self.face=face;
+    
+    self.faceView.image=face.pic;
+}
+
 /*
 #pragma mark - Navigation
 
@@ -49,7 +55,14 @@
 
 -(void)moveMouth:(BSPCFace *)face
 {
-    UIImage *pic = face.largePic;
+    
+}
+
+- (void)playQuote:(id)sender {
+    
+}
+
+- (void)closeView:(id)sender {
     
 }
 
