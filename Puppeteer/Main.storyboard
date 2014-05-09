@@ -38,7 +38,7 @@
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
                                                         </imageView>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Duval.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
                                                             <rect key="frame" x="176" y="18" width="124" height="114"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
@@ -71,9 +71,6 @@
             <point key="canvasLocation" x="-15" y="-1"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Duval.JPG" width="2448" height="3264"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
