@@ -16,7 +16,7 @@
 @property() UIImage *pic;
 
 
-- (id) initWithName:(NSString*)name Image:(UIImage*)Img Sounds:(NSArray*)sounds Rect:(CGRect)rect;
+- (id) initWithName:(NSString*)name Image:(UIImage*)Img Sounds:(NSMutableArray*)sounds Rect:(CGRect)rect;
 - (void) addQuote:(NSString*)filePath;
 - (void) playQuote:(int)name;
 

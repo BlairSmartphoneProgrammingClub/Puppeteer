@@ -23,21 +23,16 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Faces" ofType:@"plist"]];
     
     for(NSString *key in dict) {
-        
-    }
-    
-    //adding objects to faces will finally finish around here I guess
-    
-    for(int i=0;i<[faces count];i++) {
-        BSPCFace *face = [faces objectAtIndex:i];
-        UIImageView *view = [[UIImageView alloc] initWithImage:face.pic];
-        
-        UITapGestureRecognizer *gestRec = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)];
-        [view addGestureRecognizer:gestRec];
-        
-        view.frame = CGRectMake(20+(150 * (i%2)), 20+150*i, IMAGE_SIZE, IMAGE_SIZE);
-        
-        view.tag = i;
+        UIImage *img = [dict objectForKey:@"Image"];
+        NSMutableArray *quotes = [dict objectForKey:@"Sounds"];
+        NSMutableArray *rectData = [dict objectForKey:@"Rect"];
+        int x = [[rectData objectAtIndex:0] intValue];
+        int y = [[rectData objectAtIndex:1] intValue];
+        int width = [[rectData objectAtIndex:2] intValue];
+        int height = [[rectData objectAtIndex:3] intValue];
+        CGRect rect = CGRectMake(x, y, width, height);
+        BSPCFace *face = [[BSPCFace alloc] initWithName:key Image:img Sounds:quotes Rect:rect];
+        [faces addObject:face];
     }
     
     // Override point for customization after application launch.
