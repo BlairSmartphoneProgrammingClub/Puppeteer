@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "BSPCFace.h"
 
-@interface BSPCViewController : UIViewController {
-    NSMutableArray *faces;
-}
+@interface BSPCViewController : UIViewController {}
+
+@property() NSMutableArray *faces;
+@property() IBOutlet UITableView* tableView;
 
 - (void) imageTapped:(id)sender;
 

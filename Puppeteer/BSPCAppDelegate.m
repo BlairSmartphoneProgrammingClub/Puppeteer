@@ -8,6 +8,7 @@
 
 #import "BSPCAppDelegate.h"
 #import "BSPCFace.h"
+#import "BSPCViewController.h"
 
 @implementation BSPCAppDelegate
 
@@ -34,6 +35,8 @@
         BSPCFace *face = [[BSPCFace alloc] initWithName:key Image:img Sounds:quotes Rect:rect];
         [faces addObject:face];
     }
+    
+    ((BSPCViewController*)self.window.rootViewController).faces = faces;
     
     // Override point for customization after application launch.
     return YES;
