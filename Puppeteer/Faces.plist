@@ -4,6 +4,13 @@
 <dict>
 	<key>Pham</key>
 	<dict>
+		<key>Rect</key>
+		<array>
+			<integer>20</integer>
+			<integer>20</integer>
+			<integer>60</integer>
+			<integer>60</integer>
+		</array>
 		<key>Image</key>
 		<string>Pham</string>
 		<key>Sounds</key>

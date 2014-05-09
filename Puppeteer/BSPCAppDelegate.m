@@ -23,7 +23,7 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Faces" ofType:@"plist"]];
     
     for(NSString *key in dict) {
-        [faces addObject:[[BSPCFace alloc] initWithName:key Image:[[dict objectForKey:key] objectForKey:@"Image"] MouthBounds:[[dict objectForKey:key] objectForKey:@"MouthBounds"] Sounds:[[dict objectForKey:key] objectForKey:@"Sounds"]]];
+        
     }
     
     //adding objects to faces will finally finish around here I guess
