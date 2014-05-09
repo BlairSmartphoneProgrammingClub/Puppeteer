@@ -18,9 +18,11 @@
 		7146571918EF6562003B541C /* Schafer.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146570F18EF6562003B541C /* Schafer.JPG */; };
 		7146571A18EF6562003B541C /* Stein.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571018EF6562003B541C /* Stein.JPG */; };
 		7146571B18EF6562003B541C /* Street.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7146571118EF6562003B541C /* Street.JPG */; };
+		7157A1DB191D851500FF2391 /* Rose.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7157A1DA191D851500FF2391 /* Rose.JPG */; };
 		B164A302191D668300EC988F /* BSPCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B164A301191D668300EC988F /* BSPCTableViewCell.m */; };
 		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */; };
+		ECD5AA7E191D7EF600AE98AA /* Faces.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECD5AA7D191D7EF600AE98AA /* Faces.plist */; };
 		ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
 		ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */; };
 		ECECC4A018EF4E230025DB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49F18EF4E230025DB21 /* UIKit.framework */; };
@@ -34,7 +36,6 @@
 		ECECC4BD18EF4E240025DB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49F18EF4E230025DB21 /* UIKit.framework */; };
 		ECECC4C518EF4E240025DB21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECECC4C318EF4E240025DB21 /* InfoPlist.strings */; };
 		ECECC4C718EF4E240025DB21 /* PuppeteerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECECC4C618EF4E240025DB21 /* PuppeteerTests.m */; };
-		ECFED59F1914407E00D6FF02 /* Faces.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECFED59E1914407E00D6FF02 /* Faces.plist */; };
 		ECFED5A0191448DF00D6FF02 /* Duval.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7146571D18EF6B83003B541C /* Duval.m4a */; };
 		ECFED5A1191448DF00D6FF02 /* Dvorsky.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7146571E18EF6B83003B541C /* Dvorsky.m4a */; };
 		ECFED5A2191448DF00D6FF02 /* Fowler.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7146571F18EF6B83003B541C /* Fowler.m4a */; };
@@ -79,6 +80,9 @@
 		7146572518EF6B84003B541C /* Schafer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Schafer.m4a; sourceTree = "<group>"; };
 		7146572618EF6B84003B541C /* Stein.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stein.m4a; sourceTree = "<group>"; };
 		7146572718EF6B84003B541C /* Street.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Street.m4a; sourceTree = "<group>"; };
+		7157A1D8191D84FA00FF2391 /* Rose1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose1.m4a; sourceTree = "<group>"; };
+		7157A1D9191D850600FF2391 /* Rose2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose2.m4a; sourceTree = "<group>"; };
+		7157A1DA191D851500FF2391 /* Rose.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rose.JPG; sourceTree = "<group>"; };
 		B164A300191D668300EC988F /* BSPCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCTableViewCell.h; sourceTree = "<group>"; };
 		B164A301191D668300EC988F /* BSPCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCTableViewCell.m; sourceTree = "<group>"; };
 		EC0B05B418EF56910019197A /* BSPCFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFace.h; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFaceViewController.h; sourceTree = "<group>"; };
 		EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFaceViewController.m; sourceTree = "<group>"; };
 		EC0B05BA18EF608C0019197A /* FaceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceView.xib; sourceTree = "<group>"; };
+		ECD5AA7D191D7EF600AE98AA /* Faces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Faces.plist; sourceTree = "<group>"; };
 		ECECC49818EF4E230025DB21 /* Puppeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECECC49B18EF4E230025DB21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,7 +109,6 @@
 		ECECC4C218EF4E240025DB21 /* PuppeteerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuppeteerTests-Info.plist"; sourceTree = "<group>"; };
 		ECECC4C418EF4E240025DB21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECECC4C618EF4E240025DB21 /* PuppeteerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuppeteerTests.m; sourceTree = "<group>"; };
-		ECFED59E1914407E00D6FF02 /* Faces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Faces.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 		7146571C18EF6579003B541C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7157A1DA191D851500FF2391 /* Rose.JPG */,
 				7146570818EF6562003B541C /* Duval.JPG */,
 				7146570918EF6562003B541C /* Dvorsky.JPG */,
 				7146570A18EF6562003B541C /* Fowler.JPG */,
@@ -151,6 +156,8 @@
 		7146572818EF6BDC003B541C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				7157A1D9191D850600FF2391 /* Rose2.m4a */,
+				7157A1D8191D84FA00FF2391 /* Rose1.m4a */,
 				7146571D18EF6B83003B541C /* Duval.m4a */,
 				7146571E18EF6B83003B541C /* Dvorsky.m4a */,
 				7146571F18EF6B83003B541C /* Fowler.m4a */,
@@ -205,9 +212,9 @@
 				ECECC4AA18EF4E230025DB21 /* BSPCAppDelegate.h */,
 				ECECC4AB18EF4E230025DB21 /* BSPCAppDelegate.m */,
 				ECECC4B018EF4E240025DB21 /* BSPCViewController.h */,
-				ECFED59E1914407E00D6FF02 /* Faces.plist */,
 				ECECC4B118EF4E240025DB21 /* BSPCViewController.m */,
 				EC0B05BA18EF608C0019197A /* FaceView.xib */,
+				ECD5AA7D191D7EF600AE98AA /* Faces.plist */,
 				EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */,
 				EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */,
 				EC0B05B418EF56910019197A /* BSPCFace.h */,
@@ -328,6 +335,7 @@
 			files = (
 				ECFED5A0191448DF00D6FF02 /* Duval.m4a in Resources */,
 				ECFED5A1191448DF00D6FF02 /* Dvorsky.m4a in Resources */,
+				7157A1DB191D851500FF2391 /* Rose.JPG in Resources */,
 				ECFED5A2191448DF00D6FF02 /* Fowler.m4a in Resources */,
 				ECFED5A3191448DF00D6FF02 /* Giles.m4a in Resources */,
 				ECFED5A4191448DF00D6FF02 /* Ostrander.m4a in Resources */,
@@ -337,11 +345,11 @@
 				ECFED5A8191448DF00D6FF02 /* Stein.m4a in Resources */,
 				ECFED5A9191448DF00D6FF02 /* Street.m4a in Resources */,
 				7146571518EF6562003B541C /* Giles.JPG in Resources */,
-				ECFED59F1914407E00D6FF02 /* Faces.plist in Resources */,
 				7146571718EF6562003B541C /* Pham.JPG in Resources */,
 				7146571418EF6562003B541C /* Fowler.JPG in Resources */,
 				7146571218EF6562003B541C /* Duval.JPG in Resources */,
 				ECECC4B418EF4E240025DB21 /* Images.xcassets in Resources */,
+				ECD5AA7E191D7EF600AE98AA /* Faces.plist in Resources */,
 				7146571318EF6562003B541C /* Dvorsky.JPG in Resources */,
 				7146571818EF6562003B541C /* Piper.JPG in Resources */,
 				5DBFBB1119144B370063129C /* Main.storyboard in Resources */,
