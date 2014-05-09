@@ -7,11 +7,39 @@
 //
 
 #import "BSPCAppDelegate.h"
+#import "BSPCFace.h"
 
 @implementation BSPCAppDelegate
 
+
+#define GAP_SIZE 20         //Height of the top bar
+#define IMAGE_SIZE 320-3*GAP_SIZE      //the width of the screen minus GAP_SIZE on the left, right, and middle
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    NSMutableArray *faces = [[NSMutableArray alloc] initWithCapacity:10];
+    
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Faces" ofType:@"plist"]];
+    
+    for(NSString *key in dict) {
+        [faces addObject:[[BSPCFace alloc] initWithName:key Image:[[dict objectForKey:key] objectForKey:@"Image"] MouthBounds:[[dict objectForKey:key] objectForKey:@"MouthBounds"] Sounds:[[dict objectForKey:key] objectForKey:@"Sounds"]]];
+    }
+    
+    //adding objects to faces will finally finish around here I guess
+    
+    for(int i=0;i<[faces count];i++) {
+        BSPCFace *face = [faces objectAtIndex:i];
+        UIImageView *view = [[UIImageView alloc] initWithImage:face.pic];
+        
+        UITapGestureRecognizer *gestRec = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageTapped:)];
+        [view addGestureRecognizer:gestRec];
+        
+        view.frame = CGRectMake(20+(150 * (i%2)), 20+150*i, IMAGE_SIZE, IMAGE_SIZE);
+        
+        view.tag = i;
+    }
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -16,12 +16,12 @@
  *  This is the first and last time I will show you guys this. Do comments pls, it makes
  *  everyone's life easier. Oh year, this is a constructor.
  */
-- (id) initWithName:(NSString*)n SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImg
+- (id) initWithName:(NSString*)name Image:(UIImage*)img Sounds:(NSArray*)sounds Rect:(CGRect)rect
 {
     self = [super init];
     if (self)
     {
-        self.smallPic = smallImg;
+        self.pic = img;
         self.largePic = largeImg;
         name = n;
     }

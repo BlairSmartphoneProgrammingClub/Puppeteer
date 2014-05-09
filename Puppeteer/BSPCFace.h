@@ -10,13 +10,13 @@
 
 @interface BSPCFace : NSObject {
     NSString *name;
-    CGRect *rectangle;
+    CGRect rectangle;
     NSMutableDictionary *quoteDictionary;
 }
 
-@property() UIImage *smallPic,*largePic;
+@property() UIImage *pic;
 
-- (id) initWithName:(NSString*)name SmallImage:(UIImage*)smallImg LargeImage:(UIImage*)largeImage;
+- (id) initWithName:(NSString*)name Image:(UIImage*)Img Sounds:(NSArray*)sounds Rect:(CGRect)rect;
 - (void) setQuoteDictionary:(NSMutableDictionary*)q;
 - (void) addQuotes:(NSString*)name FilePath:(NSString*)filePath;
 - (void) playQuote:(NSString*)name;
