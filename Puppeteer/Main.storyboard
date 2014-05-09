@@ -47,8 +47,8 @@
                                                 </tableViewCellContentView>
                                                 <gestureRecognizers/>
                                                 <connections>
-                                                    <outlet property="face1" destination="FIS-aM-70c" id="MrW-fT-oEh"/>
-                                                    <outlet property="face2" destination="hEm-6q-Nwt" id="uen-Ic-Pry"/>
+                                                    <outlet property="faceView1" destination="FIS-aM-70c" id="tLt-pw-0ZS"/>
+                                                    <outlet property="faceView2" destination="hEm-6q-Nwt" id="psP-8O-3OX"/>
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>

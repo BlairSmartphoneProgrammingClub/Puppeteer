@@ -56,9 +56,9 @@
     
     BSPCTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    [cell.face1 setImage:((BSPCFace*)[faces objectAtIndex:indexPath.row*2]).pic];
+    [cell.faceView1 setImage:((BSPCFace*)[faces objectAtIndex:indexPath.row*2]).pic];
     if ([faces count]>=indexPath.row*2+1) {
-            [cell.face2 setImage:((BSPCFace*)[faces objectAtIndex:indexPath.row*2+1]).pic];
+            [cell.faceView2 setImage:((BSPCFace*)[faces objectAtIndex:indexPath.row*2+1]).pic];
     }
     
     return cell;
