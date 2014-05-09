@@ -36,7 +36,7 @@
 
 - (void)imageTapped:(id)sender {
     UIImageView *view = (UIImageView *)sender;
-    BSPCFace *face = [faces objectAtIndex:view.tag];
+    BSPCFace *face = [self.faces objectAtIndex:view.tag];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -47,7 +47,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
     // If you're serving data from an array, return the length of the array:
-    return ([faces count]+1)/2;
+    return ([self.faces count]+1)/2;
 }
 
 // Customize the appearance of table view cells.
@@ -56,9 +56,9 @@
     
     BSPCTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    [cell.faceView1 setImage:((BSPCFace*)[faces objectAtIndex:indexPath.row*2]).pic];
-    if ([faces count]>=indexPath.row*2+1) {
-            [cell.faceView2 setImage:((BSPCFace*)[faces objectAtIndex:indexPath.row*2+1]).pic];
+    [cell.faceView1 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2]).pic];
+    if ([self.faces count]>=indexPath.row*2+1) {
+            [cell.faceView2 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2+1]).pic];
     }
     
     return cell;
