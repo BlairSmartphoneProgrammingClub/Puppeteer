@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BSPCFace.h"
 
 @interface BSPCTableViewCell : UITableViewCell
 
-@property() IBOutlet UIImageView *face1, *face2;
+@property() BSPCFace *face1,*face2;
+@property() IBOutlet UIImageView *faceView1, *faceView2;
 @property() IBOutlet UIViewController *controller;
 
 @end
