@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="y7f-Ea-9Kx">
             <objects>
-                <viewController id="1xm-1Q-GAZ" sceneMemberID="viewController">
+                <viewController id="1xm-1Q-GAZ" customClass="BSPCViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hsO-Yr-w4s"/>
                         <viewControllerLayoutGuide type="bottom" id="RRv-5X-7kK"/>
@@ -38,7 +38,7 @@
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
                                                         </imageView>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Duval.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
                                                             <rect key="frame" x="176" y="18" width="124" height="114"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
@@ -52,6 +52,9 @@
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="1xm-1Q-GAZ" id="9ja-8Y-DeX"/>
+                                        </connections>
                                     </tableView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -59,12 +62,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="PlV-1e-05Y" id="H7X-Jj-yYb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PjW-58-0y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-15" y="-1"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Duval.JPG" width="2448" height="3264"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
