@@ -17,7 +17,7 @@
 
 
 - (id) initWithName:(NSString*)name Image:(UIImage*)Img Sounds:(NSArray*)sounds Rect:(CGRect)rect;
-- (void) addQuotes:(NSString*)name FilePath:(NSString*)filePath;
-- (void) playQuote:(NSString*)name;
+- (void) addQuote:(NSString*)filePath;
+- (void) playQuote:(int)name;
 
 @end

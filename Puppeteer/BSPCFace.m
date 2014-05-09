@@ -22,8 +22,9 @@
     if (self)
     {
         self.pic = img;
-        self.largePic = largeImg;
-        name = n;
+        self.name = name;
+        self.quoteArray = sounds;
+        self.rectangle = rect;
     }
     else
     {
@@ -33,27 +34,16 @@
 }
 
 /**
- *  Function: setQuotes
- *  -------------------
- *  Sets the NSMutableDictionary of quotes to q. The NSDictionary where the key is the name
- *  of the quote and the value is the file path
- */
-- (void) setQuoteDictionary:(NSMutableDictionary*)q
-{
-    quoteDictionary = q;
-}
-
-/**
  *  Function: addQuotes
  *  -------------------
  *  Adds more quotes to the NSMutableDictionary of quotes. 
  */
-- (void) addQuotes:(NSString*)n FilePath:(NSString*)filePath
+- (void) addQuote:(NSString*)filePath
 {
-    [quoteDictionary setObject:filePath forKey:n];
+    [self.quoteArray addObject:filePath];
 }
 
-- (void) playQuote:(NSString*)name
+- (void) playQuote:(int)name
 {
     //Left as an exercise to the reader
 }
