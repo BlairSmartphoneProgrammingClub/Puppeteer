@@ -34,9 +34,6 @@
     
     
     
-    
-    
-    
     //adding objects to faces will finally finish around here I guess
     
     for(int i=0;i<[faces count];i++) {
