@@ -69,6 +69,8 @@
             [cell.faceView2 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2+1]).pic];
     }
     
+    cell.face1 = (BSPCFace*) [self.faces objectAtIndex:indexPath.row*2];
+    
     return cell;
 }
 

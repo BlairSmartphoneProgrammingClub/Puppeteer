@@ -33,12 +33,12 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FIS-aM-70c">
+                                                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FIS-aM-70c">
                                                             <rect key="frame" x="20" y="19" width="124" height="114"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
                                                         </imageView>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
+                                                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-6q-Nwt">
                                                             <rect key="frame" x="176" y="18" width="124" height="114"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <gestureRecognizers/>
@@ -47,6 +47,7 @@
                                                 </tableViewCellContentView>
                                                 <gestureRecognizers/>
                                                 <connections>
+                                                    <outlet property="controller" destination="1xm-1Q-GAZ" id="2oQ-oD-nKJ"/>
                                                     <outlet property="faceView1" destination="FIS-aM-70c" id="tLt-pw-0ZS"/>
                                                     <outlet property="faceView2" destination="hEm-6q-Nwt" id="psP-8O-3OX"/>
                                                 </connections>

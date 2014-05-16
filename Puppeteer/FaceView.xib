@@ -4,7 +4,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSPCFaceViewController">
+            <connections>
+                <outlet property="chinView" destination="6Hu-5e-cCn" id="ip2-xH-hB5"/>
+                <outlet property="coverUp" destination="IpQ-ez-cjm" id="znW-J7-sIR"/>
+                <outlet property="faceView" destination="v44-SF-FhD" id="rVr-Nm-U8h"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Kk5-H2-PNA"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
