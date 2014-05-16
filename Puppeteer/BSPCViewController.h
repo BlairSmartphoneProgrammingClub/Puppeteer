@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BSPCFace.h"
 
-@interface BSPCViewController : UIViewController {}
+@interface BSPCViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {}
 
 @property() NSMutableArray *faces;
 @property() IBOutlet UITableView* tableView;
