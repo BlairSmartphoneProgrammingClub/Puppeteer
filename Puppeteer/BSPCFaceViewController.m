@@ -28,6 +28,24 @@
 {
     [super viewDidLoad];
     self.faceView.image=self.face.pic;
+    
+    CGRect screen = self.faceView.frame;
+    CGRect dims = self.face.rectangle;
+    
+    int screenHeight = screen.size.height;
+    int screenWidth = screen.size.width;
+    
+    //CGRect newCover
+    int newH = screenHeight * dims.size.height / 100;
+    int newW = screenWidth * dims.size.width / 100;
+    int newY = screenHeight * dims.origin.y / 100;
+    int newX = screenWidth * dims.origin.x / 100;
+    NSLog(@"screen: %@",NSStringFromCGRect(screen));
+    NSLog(@"%i, %i, %i, %i",newX,newY,newW,newH);
+    NSLog(@"frame: %@",NSStringFromCGRect(self.coverUp.frame));
+    [self.coverUp setFrame:CGRectMake(newX, newY, newW, newH)];
+    NSLog(@"frame2: %@",NSStringFromCGRect(self.coverUp.frame));
+    
     // Do any additional setup after loading the view.
 }
 
