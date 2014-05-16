@@ -51,11 +51,18 @@
     return ([self.faces count]+1)/2;
 }
 
+- (NSIndexPath *) tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"FaceCell";
     
     BSPCTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     [cell.faceView1 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2]).pic];
     if ([self.faces count]>indexPath.row*2+1) {
