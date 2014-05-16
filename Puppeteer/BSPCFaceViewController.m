@@ -37,7 +37,7 @@
 }
 
 - (void)setFace:(BSPCFace *)face {
-    self.face=face;
+    _face=face;
     
     self.faceView.image=face.pic;
 }
