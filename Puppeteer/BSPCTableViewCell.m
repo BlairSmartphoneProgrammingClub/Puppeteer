@@ -44,7 +44,7 @@
 - (void)face1Tapped{
     NSLog(@"face 1 tapped");
     
-    BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] initWithNibName:@"FaceView.xib" bundle:nil];
+    BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] initWithNibName:@"FaceView" bundle:nil];
     
     newViewController.face=self.face1;
     

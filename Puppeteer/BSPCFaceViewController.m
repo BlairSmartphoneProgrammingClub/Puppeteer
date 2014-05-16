@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.faceView.image=self.face.pic;
     // Do any additional setup after loading the view.
 }
 
@@ -39,7 +40,9 @@
 - (void)setFace:(BSPCFace *)face {
     _face=face;
     
-    self.faceView.image=face.pic;
+    NSLog(@"view: %@",self.faceView);
+    self.faceView.image = face.pic;
+    NSLog(@"the pic %@",face.pic);
 }
 
 /*
