@@ -23,6 +23,7 @@
 		B164A302191D668300EC988F /* BSPCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B164A301191D668300EC988F /* BSPCTableViewCell.m */; };
 		EC0B05B618EF56910019197A /* BSPCFace.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B518EF56910019197A /* BSPCFace.m */; };
 		EC0B05B918EF5ABB0019197A /* BSPCFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */; };
+		EC7BFB531926AA9300AB0E38 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7BFB521926AA9300AB0E38 /* AVFoundation.framework */; };
 		ECD5AA7E191D7EF600AE98AA /* Faces.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECD5AA7D191D7EF600AE98AA /* Faces.plist */; };
 		ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49B18EF4E230025DB21 /* Foundation.framework */; };
 		ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */; };
@@ -91,6 +92,7 @@
 		EC0B05B718EF5ABB0019197A /* BSPCFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCFaceViewController.h; sourceTree = "<group>"; };
 		EC0B05B818EF5ABB0019197A /* BSPCFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCFaceViewController.m; sourceTree = "<group>"; };
 		EC0B05BA18EF608C0019197A /* FaceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceView.xib; sourceTree = "<group>"; };
+		EC7BFB521926AA9300AB0E38 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ECD5AA7D191D7EF600AE98AA /* Faces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Faces.plist; sourceTree = "<group>"; };
 		ECECC49818EF4E230025DB21 /* Puppeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECECC49B18EF4E230025DB21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7BFB531926AA9300AB0E38 /* AVFoundation.framework in Frameworks */,
 				ECECC49E18EF4E230025DB21 /* CoreGraphics.framework in Frameworks */,
 				ECECC4A018EF4E230025DB21 /* UIKit.framework in Frameworks */,
 				ECECC49C18EF4E230025DB21 /* Foundation.framework in Frameworks */,
@@ -198,6 +201,7 @@
 		ECECC49A18EF4E230025DB21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC7BFB521926AA9300AB0E38 /* AVFoundation.framework */,
 				ECECC49B18EF4E230025DB21 /* Foundation.framework */,
 				ECECC49D18EF4E230025DB21 /* CoreGraphics.framework */,
 				ECECC49F18EF4E230025DB21 /* UIKit.framework */,

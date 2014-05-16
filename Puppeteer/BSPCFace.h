@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface BSPCFace : NSObject {}
+@interface BSPCFace : NSObject {
+    AVAudioPlayer *audioPlayer;
+}
 
 @property() NSString *name;
 @property() CGRect rectangle;

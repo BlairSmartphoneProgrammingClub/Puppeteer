@@ -45,7 +45,15 @@
 
 - (void) playQuote:(int)name
 {
-    //Left as an exercise to the reader
+    NSString *quoteName=[self.quoteArray objectAtIndex:name];
+    int lastDot=[quoteName rangeOfString:@"." options:NSBackwardsSearch].location;
+    NSURL *url = [[NSBundle mainBundle] URLForResource:[quoteName substringToIndex:lastDot] withExtension:[quoteName substringFromIndex:lastDot+1]];
+    
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc]
+                   initWithContentsOfURL:url error:&error];
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
 }
 
 @end
