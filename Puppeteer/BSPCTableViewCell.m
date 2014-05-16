@@ -21,12 +21,9 @@
 
 - (void)awakeFromNib
 {
-    NSLog(@"awakeFromNib");
     
     UITapGestureRecognizer *gesture1=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(face1Tapped)];
     UITapGestureRecognizer *gesture2=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(face2Tapped)];
-    
-    NSLog(@"faceView1: %@",self.faceView1);
     
     [self.faceView1 addGestureRecognizer:gesture1];
     [self.faceView2 addGestureRecognizer:gesture2];
@@ -42,8 +39,6 @@
 }
 
 - (void)face1Tapped{
-    NSLog(@"face 1 tapped");
-    
     BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] initWithNibName:@"FaceView" bundle:nil];
     
     newViewController.face=self.face1;
@@ -52,8 +47,11 @@
 }
 
 - (void)face2Tapped{
+    BSPCFaceViewController *newViewController = [[BSPCFaceViewController alloc] initWithNibName:@"FaceView" bundle:nil];
     
-    NSLog(@"face 2 tapped");
+    newViewController.face=self.face2;
+    
+    [self.controller presentViewController:newViewController animated:YES completion:nil];
 }
 
 @end

@@ -10,7 +10,6 @@
 #import "BSPCFace.h"
 
 @interface BSPCFaceViewController : UIViewController {
-    
 }
 
 @property(nonatomic) BSPCFace *face;

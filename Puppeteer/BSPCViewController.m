@@ -65,11 +65,13 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     [cell.faceView1 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2]).pic];
-    if ([self.faces count]>indexPath.row*2+1) {
-            [cell.faceView2 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2+1]).pic];
-    }
-    
     cell.face1 = (BSPCFace*) [self.faces objectAtIndex:indexPath.row*2];
+    
+    
+    if ([self.faces count]>indexPath.row*2+1) {
+        [cell.faceView2 setImage:((BSPCFace*)[self.faces objectAtIndex:indexPath.row*2+1]).pic];
+        cell.face2 = (BSPCFace*) [self.faces objectAtIndex:indexPath.row*2+1];
+    }
     
     return cell;
 }

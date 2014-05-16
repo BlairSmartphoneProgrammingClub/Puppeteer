@@ -46,6 +46,33 @@
     [self.coverUp setFrame:CGRectMake(newX, newY, newW, newH)];
     NSLog(@"frame2: %@",NSStringFromCGRect(self.coverUp.frame));
     
+    
+    int imgWidth = self.faceView.image.size.width;
+    int imgHeight = self.faceView.image.size.height;
+    
+    int cropH = imgHeight * dims.size.height / 100;
+    int cropW = imgWidth * dims.size.width / 100;
+    int cropY = imgHeight * dims.origin.y / 100;
+    int cropX = imgWidth * dims.origin.x / 100;
+    
+    CGRect imgDims = CGRectMake(cropH, cropW, cropX, cropY);
+    
+    UITapGestureRecognizer *gesture1=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(playQuote:)];
+    
+    [self.view addGestureRecognizer:gesture1];
+    
+    CGImageRef imageRef = CGImageCreateWithImageInRect([self.faceView.image CGImage], imgDims);
+    // or use the UIImage wherev0er you like
+    [self.chinView setImage:[UIImage imageWithCGImage:imageRef]];
+    CGImageRelease(imageRef);
+    
+    /**
+    CGContextRef bitmap=CGBitmapContextCreate(NULL, targetWidth, targetHeight, CGImageGetBitsPerComponent(imageRef), CGImageGetBytesPerRow(imageRef), colorSpaceInfo, bitmapInfo);
+
+
+    CGContextTranslateCTM (bitmap, imgWidth, imgHeight);
+    CGContextRotateCTM (bitmap, radians(-180.));
+    */
     // Do any additional setup after loading the view.
 }
 
@@ -80,11 +107,13 @@
 }
 
 - (void)playQuote:(id)sender {
+    [self.face playQuote:0];
     
+    NSLog(@"play quote");
 }
 
 - (void)closeView:(id)sender {
-    
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

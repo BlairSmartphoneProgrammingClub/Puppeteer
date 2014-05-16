@@ -45,13 +45,21 @@
 
 - (void) playQuote:(int)name
 {
+    AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+    [audioSession setCategory:AVAudioSessionCategoryPlayback error:NULL];
+
+    
     NSString *quoteName=[self.quoteArray objectAtIndex:name];
     int lastDot=[quoteName rangeOfString:@"." options:NSBackwardsSearch].location;
     NSURL *url = [[NSBundle mainBundle] URLForResource:[quoteName substringToIndex:lastDot] withExtension:[quoteName substringFromIndex:lastDot+1]];
     
+    NSLog(@"url: %@",url);
+    
     NSError *error;
     audioPlayer = [[AVAudioPlayer alloc]
                    initWithContentsOfURL:url error:&error];
+    
+    NSLog(@"error: %@",error);
     [audioPlayer prepareToPlay];
     [audioPlayer play];
 }
