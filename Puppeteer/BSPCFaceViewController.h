@@ -15,6 +15,7 @@
 @property(nonatomic) BSPCFace *face;
 @property() IBOutlet UIView *coverUp;
 @property() IBOutlet UIImageView *faceView,*chinView;
+@property() IBOutlet UISegmentedControl *segcon;
 
 - (IBAction)playQuote:(id)sender;
 - (IBAction)closeView:(id)sender;

@@ -19,7 +19,19 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 435)];
+        scroll.contentSize = CGSizeMake(320, 700);
+        scroll.showsHorizontalScrollIndicator = YES;
+        
+        NSArray *itemArray = [NSArray arrayWithObjects: @"One", @"Two", @"Three", nil];
+        UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:itemArray];
+        segmentedControl.frame = CGRectMake(35, 200, 250, 50);
+        segmentedControl.segmentedControlStyle = UISegmentedControlStylePlain;
+        [segmentedControl addTarget:self action:@selector(MySegmentControlAction:) forControlEvents: UIControlEventValueChanged];
+        segmentedControl.selectedSegmentIndex = 1;
+        [scroll addSubview:segmentedControl];
+        [segmentedControl release]; 
+        [self.view addSubview:scroll];
     }
     return self;
 }
@@ -108,7 +120,6 @@
 
 - (void)playQuote:(id)sender {
     [self.face playQuote:0];
-    
     NSLog(@"play quote");
 }
 

@@ -61,7 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D609BB019391B4900C0FA46 /* Rose2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose2.m4a; sourceTree = "<group>"; };
 		5DBFBB1019144B370063129C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7146570818EF6562003B541C /* Duval.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Duval.JPG; path = Puppeteer/Duval.JPG; sourceTree = "<group>"; };
 		7146570918EF6562003B541C /* Dvorsky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dvorsky.JPG; path = Puppeteer/Dvorsky.JPG; sourceTree = "<group>"; };
@@ -160,7 +159,6 @@
 		7146572818EF6BDC003B541C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				5D609BB019391B4900C0FA46 /* Rose2.m4a */,
 				7157A1D9191D850600FF2391 /* Rose.m4a */,
 				7146571D18EF6B83003B541C /* Duval.m4a */,
 				7146571E18EF6B83003B541C /* Dvorsky.m4a */,

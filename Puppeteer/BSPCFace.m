@@ -50,7 +50,7 @@
 
     
     NSString *quoteName=[self.quoteArray objectAtIndex:name];
-    int lastDot=[quoteName rangeOfString:@"." options:NSBackwardsSearch].location;
+    int lastDot=(int)[quoteName rangeOfString:@"." options:NSBackwardsSearch].location;
     NSURL *url = [[NSBundle mainBundle] URLForResource:[quoteName substringToIndex:lastDot] withExtension:[quoteName substringFromIndex:lastDot+1]];
     
     NSLog(@"url: %@",url);
