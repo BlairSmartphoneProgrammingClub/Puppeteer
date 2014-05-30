@@ -61,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D609BB019391B4900C0FA46 /* Rose2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose2.m4a; sourceTree = "<group>"; };
 		5DBFBB1019144B370063129C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7146570818EF6562003B541C /* Duval.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Duval.JPG; path = Puppeteer/Duval.JPG; sourceTree = "<group>"; };
 		7146570918EF6562003B541C /* Dvorsky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dvorsky.JPG; path = Puppeteer/Dvorsky.JPG; sourceTree = "<group>"; };
@@ -82,8 +83,7 @@
 		7146572518EF6B84003B541C /* Schafer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Schafer.m4a; sourceTree = "<group>"; };
 		7146572618EF6B84003B541C /* Stein.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stein.m4a; sourceTree = "<group>"; };
 		7146572718EF6B84003B541C /* Street.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Street.m4a; sourceTree = "<group>"; };
-		7157A1D8191D84FA00FF2391 /* Rose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose.m4a; sourceTree = "<group>"; };
-		7157A1D9191D850600FF2391 /* Rose2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose2.m4a; sourceTree = "<group>"; };
+		7157A1D9191D850600FF2391 /* Rose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rose.m4a; sourceTree = "<group>"; };
 		7157A1DA191D851500FF2391 /* Rose.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rose.JPG; sourceTree = "<group>"; };
 		B164A300191D668300EC988F /* BSPCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPCTableViewCell.h; sourceTree = "<group>"; };
 		B164A301191D668300EC988F /* BSPCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPCTableViewCell.m; sourceTree = "<group>"; };
@@ -160,8 +160,8 @@
 		7146572818EF6BDC003B541C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				7157A1D9191D850600FF2391 /* Rose2.m4a */,
-				7157A1D8191D84FA00FF2391 /* Rose.m4a */,
+				5D609BB019391B4900C0FA46 /* Rose2.m4a */,
+				7157A1D9191D850600FF2391 /* Rose.m4a */,
 				7146571D18EF6B83003B541C /* Duval.m4a */,
 				7146571E18EF6B83003B541C /* Dvorsky.m4a */,
 				7146571F18EF6B83003B541C /* Fowler.m4a */,
